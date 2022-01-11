@@ -9,6 +9,7 @@
   "dependencies": {
     "axios": "^0.24.0",
     "element3": "^0.0.40",
+    "nprogress": "^0.2.0",
     "pinia": "^2.0.0-rc.10",
     "sass": "^1.47.0",
     "vue": "^3.2.25",

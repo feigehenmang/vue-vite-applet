@@ -14,6 +14,7 @@
 <script setup>
 import CountItem from '@/components/Count.vue'
 import { UseCountStore } from '@/store/'
+console.log(import.meta.env.VITE_BASE_API)
 const countStore = UseCountStore()
 const updateCount = () => {
     // console.log(countStore.count)
@@ -24,7 +25,6 @@ const updateCount = () => {
 </script>
 
 <style lang="scss" scoped>
-@import '@/styles/index.scss';
 .count-unselect {
     user-select: none;
     cursor: pointer;

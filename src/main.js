@@ -1,7 +1,6 @@
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import elementPlugin from '@/plugins/element.js'
-import '@/styles/index.scss'
 import router from './router'
 import App from './App.vue'
 
