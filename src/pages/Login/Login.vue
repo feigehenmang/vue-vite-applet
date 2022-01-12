@@ -17,7 +17,7 @@ import { UseCountStore } from '@/store/'
 console.log(import.meta.env.VITE_BASE_API)
 const countStore = UseCountStore()
 const updateCount = () => {
-    // console.log(countStore.count)
+    console.log(countStore.count)
     countStore.$patch({
         count: countStore.count + 1
     })

@@ -3,6 +3,8 @@
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
 export default {
   render() {
+    console.log(this.$day().date())
+    console.log(this.$api.get)
     return <router-view></router-view>
   }
 }

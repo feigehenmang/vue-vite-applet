@@ -8,7 +8,9 @@
   },
   "dependencies": {
     "axios": "^0.24.0",
+    "dayjs": "^1.10.7",
     "element3": "^0.0.40",
+    "lodash": "^4.17.21",
     "nprogress": "^0.2.0",
     "pinia": "^2.0.0-rc.10",
     "sass": "^1.47.0",
