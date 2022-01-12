@@ -100,4 +100,3 @@ const http: Http = {
   },
 }
 export default http
-
